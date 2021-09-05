@@ -1,6 +1,6 @@
 {
   "name": "@renditions/react-picture-source",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "React component for rendering HTML source tag with nice abstractions over srcset and sizes attributes.",
   "main": "Source.dist.js",
   "browser": "Source.dist.min.js",
