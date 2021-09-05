@@ -1,0 +1,15 @@
+{
+  "name": "renditions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "all": "run(){ for FILE_PATH in $(find . -name \"*package.json\" -not -path \"*node_modules/*\"); do echo \"\\n> $FILE_PATH\" && cd $(dirname $FILE_PATH) && $@ && cd - > /dev/null; done }; run",
+    "test:all": "npm run all -- npm test --if-present",
+    "lint:all": "npm run all -- npm run lint --if-present"
+  },
+  "workspaces": {
+		"packages": [
+			"packages/*"
+		]
+	}
+}

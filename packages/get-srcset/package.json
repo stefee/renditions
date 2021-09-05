@@ -1,0 +1,50 @@
+{
+  "name": "@renditions/get-srcset",
+  "version": "1.1.2",
+  "description": "Generate the srcset attribute for HTML img and picture tags",
+  "main": "getSrcset.dist.js",
+  "browser": "getSrcset.dist.min.js",
+  "types": "getSrcset.d.ts",
+  "files": [
+    "getSrcset.dist.js",
+    "getSrcset.dist.min.js",
+    "getSrcset.d.ts",
+    "getSrcset.ts"
+  ],
+  "scripts": {
+    "prepare": "./build.sh",
+    "test": "jest",
+    "lint": "eslint *.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefee/renditions.git"
+  },
+  "author": "Stef Jones <stef@srilq.email>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stefee/renditions/issues"
+  },
+  "homepage": "https://github.com/stefee/renditions/tree/main/packages/get-srcset#readme",
+  "devDependencies": {
+    "@types/jest": "27.0.1",
+    "@typescript-eslint/eslint-plugin": "4.30.0",
+    "esbuild": "0.12.25",
+    "esbuild-jest": "0.5.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-jest": "24.4.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "jest": "27.1.0",
+    "prettier": "2.3.2",
+    "typescript": "4.4.2"
+  },
+  "keywords": [
+    "srcset",
+    "image",
+    "picture",
+    "images",
+    "responsive images",
+    "responsive image"
+  ]
+}
